@@ -155,9 +155,6 @@ class Character {
      * @returns {@code true} if the string has a white space
      */
     public static isWhitespace(cs: string): boolean {
-        if (cs === ' ') {
-            return true;
-        }
-        return false;
+        return cs === ' ';
     }
 }
